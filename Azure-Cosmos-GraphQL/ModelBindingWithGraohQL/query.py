@@ -1,6 +1,7 @@
 import graphene
-from models.model import *
-from resolver import *
+from ModelBindingWithGraohQL.models.firds import *
+from ModelBindingWithGraohQL.models.fitrs import *
+from ModelBindingWithGraohQL.resolver import *
 
 class Query(graphene.ObjectType):
 

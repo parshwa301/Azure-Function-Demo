@@ -1,4 +1,5 @@
-from models.model import *
+from ModelBindingWithGraohQL.models.firds import *
+from ModelBindingWithGraohQL.models.fitrs import *
 
 class Demo:
 
@@ -7,7 +8,7 @@ class Demo:
 
     def firdsData(self):
 
-        return [{"id":"1","name":"c","department":"aSs"},{"id":"31","name":"cGFDF","department":"asdfs"}]
+        return [{"id":"1","name":"c","department":"aSs","employeeDetail":[{"salary":23422,"address":[{"street":"zcz","city":"Ahmedabad","state":"Gujarat","pincode":380007},{"street":"zcz","city":"Ahmedabad","state":"Gujarat","pincode":380007}]},{"salary":23422,"address":[{"street":"zcz","city":"Ahmedabad","state":"Gujarat","pincode":380007},{"street":"zcz","city":"Ahmedabad","state":"Gujarat","pincode":380007}]}]},{"id":"11","name":"c","department":"aSs","employeeDetail":[{"salary":23422,"address":[{"street":"zcz","city":"Ahmedabad","state":"Gujarat","pincode":380007},{"street":"zcz","city":"Ahmedabad","state":"Gujarat","pincode":380007}]},{"salary":23422,"address":[{"street":"zcz","city":"Ahmedabad","state":"Gujarat","pincode":380007},{"street":"zcz","city":"Ahmedabad","state":"Gujarat","pincode":380007}]}]}]
 
     def fitrsdData(self):
 

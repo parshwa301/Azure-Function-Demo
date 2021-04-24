@@ -1,6 +1,7 @@
 import graphene
-from models.model import *
-from query import *
+from ModelBindingWithGraohQL.models.firds import *
+from ModelBindingWithGraohQL.models.fitrs import *
+from ModelBindingWithGraohQL.query import *
 import json
 
 
