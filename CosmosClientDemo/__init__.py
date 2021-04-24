@@ -8,6 +8,7 @@ import json
 def main(req: func.HttpRequest) -> func.HttpResponse:
 
     # pageNo = int(req.params.get('pageNo'))
+    # print("hello")
     url = os.environ['ACCOUNT_EndPoint']
     key = os.environ['Account_Key']
     client = CosmosClient(url, credential=key)
