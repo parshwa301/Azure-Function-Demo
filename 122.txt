@@ -1,0 +1,2 @@
+
+AccountEndpoint=https://dbag12.documents.azure.com:443/;AccountKey=MH5sFQGtWdUz2hxbMwQWR44jjEfhjjDi5I2597FcB8P0GTJfPhHMHk9xbu28GYgJQ44NiP3b0hnOEg86e2leug==;
