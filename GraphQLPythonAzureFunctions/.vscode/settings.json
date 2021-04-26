@@ -1,5 +1,5 @@
 {
-    "azureFunctions.deploySubpath": "Azure-Function",
+    "azureFunctions.deploySubpath": "GraphQLPythonAzureFunctions",
     "azureFunctions.scmDoBuildDuringDeployment": true,
     "azureFunctions.pythonVenv": ".venv",
     "azureFunctions.projectLanguage": "Python",

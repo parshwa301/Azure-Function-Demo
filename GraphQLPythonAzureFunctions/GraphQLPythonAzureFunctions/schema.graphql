@@ -1,0 +1,25 @@
+type User {
+    username: String
+    userId: String
+}
+type Query {
+    hello: String!
+    employee: Employee
+}
+
+type Employee {
+    empid: String
+    empname: String
+}
+
+type messagesResult {
+    messages: [Message]
+    success: Boolean!
+    errors: [String]
+}
+
+type Message {
+    content: String
+    senderId: String
+    recipientId: String
+}

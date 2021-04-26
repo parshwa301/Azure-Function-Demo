@@ -1,0 +1,16 @@
+type Firds{
+
+    FinInstrGnlAttrbtsClssfctnTp: String,
+    TradVnRltdAttrbtsTermntnDt: String,
+    FinInstrmGnlAttrbtsId: String,
+    Issr: String,
+    TradgVnRltdAttrbtsFrstTradDt: String,
+    TradgVnRltdAttrbtsFrstId: String,
+}
+
+type Query {
+   
+   firds:[Firds]
+
+   firdsByPartitionKey(FinInstrmGnlAttrbtsId : String) : Firds
+}
